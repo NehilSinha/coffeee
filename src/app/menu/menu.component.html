@@ -1,0 +1,9 @@
+<section class="menu">
+    <div class="menu-categories">
+        <button (click)="selectCategory(category)" *ngFor="let category of categories">{{ category }}</button>
+    </div>
+    <div class="menu-items">
+        <app-menu-item *ngFor="let item of selectedCategoryItems" [item]="item"></app-menu-item>
+    </div>
+</section>
+  

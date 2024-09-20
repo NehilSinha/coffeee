@@ -1,0 +1,36 @@
+.header {
+    color: white;
+    padding: 15px; /* Increased padding */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .header img {
+    max-width: 100px;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 0 80px; /* Increased padding */
+  }
+  
+  .header a:hover {
+    color: green; /* Yellow color for hover */
+  }
+  
+  .header button {
+    background-color: #006335; /* Darker green */
+    color: white;
+    padding: 15px 30px; /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .header button:hover {
+    background-color: #00704a; /* Lighter green on hover */
+  }
+  
